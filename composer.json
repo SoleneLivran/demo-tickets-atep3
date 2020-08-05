@@ -1,0 +1,13 @@
+{
+    "name": "solene/tickets-atep3",
+    "authors": [
+        {
+            "name": "SoleneLivran",
+            "email": "s.livran@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "heroku/heroku-buildpack-php": "*"
+    }
+}

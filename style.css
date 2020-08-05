@@ -1,0 +1,195 @@
+  .container {
+    font-family: Heebo, sans-serif;
+    line-height: 1.5em;
+    width: 50%;
+    margin: auto;
+  }
+
+  .ticket {
+    width: 50%;
+    height: 20vh;
+    display: flex;
+    border: 1px solid black;
+    float: left;
+  }
+
+  .warning {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+  }
+
+/* MAIN SECTION */
+
+  .main {
+    width: 60%;
+    padding: 0.5em;
+    background-image: url("atep3-logo-demo.jpg");
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: bottom 10px right 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .no-vote {
+    width: 80%;
+  }
+
+  .main .year {
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 1.2rem;
+  }
+
+  .main .title {
+    font-size: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 250px;
+    line-height: 1.5em;
+  }
+
+  .main .date {
+    font-size: 10px;
+  }
+
+  .main .time {
+    font-size: 10px;
+    margin-top: -8px;
+  }
+
+  .main .room {
+    font-size: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 130px;
+  }
+
+  .main .spectator {
+    font-size: 10px;
+  }
+
+  /* STUB SECTION */
+
+  .stub {
+    width: 25%; 
+    padding: 0.5em;
+    border-right: 2px dotted black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1rem;
+    text-align: center;
+  }
+
+  .stub .ticket-number {
+    font-size: 12px;
+    margin-bottom: 1rem;
+  }
+
+  .stub .date {
+    font-size: 10px;
+    margin-bottom: 1rem;
+    text-align: center;
+    max-width: 80px;
+  }
+
+  .stub .title {
+    font-weight: bold;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 80px;
+  }
+
+  .stub .company {
+    font-size: 8px;
+    margin-bottom: 0.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 80px;
+  }
+
+  .stub .practical-info {
+    font-size: 10px;
+    margin-bottom: 1rem;
+    white-space: nowrap;
+  }
+
+  .stub .room {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 80px;
+    text-align: center;
+  }
+
+  /* VOTE SECTION */
+
+  .vote {
+    width: 15%;
+    padding: 0.5em;
+    border-left: 2px dotted black;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .no-display,
+  .no-display p {
+    display: none;
+  }
+
+  .vote p {
+    transform: rotate(180deg);
+    text-align: center;
+  }
+
+  small {
+    font-size: 0.8em;
+  }
+
+
+@media print {
+  html, body {
+    width: 210mm;
+    height: 297mm;        
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .warning {
+    display: none;
+  }
+
+  body {-webkit-print-color-adjust: exact;
+  }
+
+  .page-break { 
+    page-break-after: always;
+  }
+
+  .ticket {
+    width: 50%;
+  }
+
+  .main {
+    background-size: 50%;
+  }
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
