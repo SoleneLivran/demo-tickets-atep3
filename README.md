@@ -1,8 +1,8 @@
 # demo-tickets-atep3
 Demo version - a simple tool created for a drama association, to create the tickets for their festival's shows
 
-Personnal project
-HTML · CSS · BOOTSTRAP · PHP
+Personnal project<br>
+HTML · CSS · BOOTSTRAP · PHP<br>
 Project done after about a month of learning programming, in june 2020, in response to needs from the ATEP3 association.
 
 ATEP3 is a small student association in Parise, organizing each year a 2 week long festival. The Festival A Contre Sens is about 50 free showa, with around 3000 spectators. The tickets were made "by hand" with InDesign, which not everyone knew how to use.
