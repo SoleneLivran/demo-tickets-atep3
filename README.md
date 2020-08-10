@@ -14,3 +14,5 @@ The tickets are made for printing ; their final look is seen after a PDF export.
 
 This app was made to work in Google Chrome.
 This is my very first personal project, coded alone in vanilla PHP ; it would probably deserves to be re-made with new knowledge I gained later ;)
+
+Project demo is live <a href="https://demo-tickets-atep3.herokuapp.com/">here</a>
