@@ -5,7 +5,7 @@ Personnal project<br>
 HTML · CSS · BOOTSTRAP · PHP<br>
 Project done after about a month of learning programming, in june 2020, in response to needs from the ATEP3 association.
 
-ATEP3 is a small student association in Parise, organizing each year a 2 week long festival. The Festival A Contre Sens is about 50 free showa, with around 3000 spectators. The tickets were made "by hand" with InDesign, which not everyone knew how to use.
+ATEP3 is a small student association in Paris, organizing each year a 2 week long festival. The Festival A Contre Sens is about 50 free shows, with around 3000 spectators. The tickets were made "by hand" with InDesign, which not everyone knew how to use.
 It was important to develop a simple tool, usable by any team member even with no technical knowledge.
 
 The information about the show are filled in a form. 
