@@ -1,0 +1,32 @@
+.info-label {
+    outline: none;
+    cursor: pointer;
+    display:block;
+    font-style: italic;
+}
+
+.info-details {
+    display: none;
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 20px;
+    border: grey 1px solid;
+}
+
+.info-label:focus+.info-details {
+    display: block;
+}
+.hidden{
+    margin-left:-99999px;
+}
+input#instructions:checked + label + div{
+    display:block;
+}
+
+form {
+    margin-top: 30px;
+}
+
+.small {
+    font-size: small;
+}
