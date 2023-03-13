@@ -38,18 +38,17 @@
                 Le nombre renseigné dans le champ "jauge" sera le nombre de billets à imprimer.
             </p>
             <p>
-                Si la jauge indiquée est plus grande que le nombre de noms dans "Spectateurices", les billets
+                Si la jauge indiquée est plus grande que le nombre de noms dans "Spectateur-ices", les billets
                 supplémentaires seront créés sans nom spécifique. Ca peut servir, pour avoir des billets "vierges" à
                 distribuer au dernier moment aux personnes n'ayant pas réservé.
             </p>
             <p>
-                Si la jauge indiquée est plus petite que le nombre de noms dans "Spectateurices", vous aurez une alerte
+                Si la jauge indiquée est plus petite que le nombre de noms dans "Spectateur-ices", vous aurez une alerte
                 en haut de la page des billets, pour y faire attention.
             </p>
             <p>
-                Quand tout est ok, cliquez sur "Loutre", et cela va générer les billets. Si les billets semblent
-                “bizarres”
-                avant d’imprimer, c’est normal. Ils prennent les bonnes proportions au moment de l’impression.
+                Quand tout est ok, cliquez sur "Créer les billets", et cela va générer les billets. Si les billets semblent
+                “bizarres” avant d’imprimer, c’est normal. Ils prennent les bonnes proportions au moment de l’impression.
                 Le preview de l’impression vous montrera normalement leur vraie tête !
             </p>
             <p>
@@ -58,10 +57,6 @@
             </p>
             <p>
                 En cas de questions, ou de souci, mes coordonnées sont en bas de la page, n'hésitez pas !
-            </p>
-            <p class="small">
-                (Si vous vous demandez pourquoi "loutre", demandez à un·e ancien·ne atépien·ne ;) on vous aime, bon
-                Festival !)
             </p>
         </div>
     </div>
